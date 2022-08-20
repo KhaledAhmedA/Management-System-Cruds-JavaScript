@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Managament System JS/Cruds</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="cruds">
+
+
+
+        <!-- Start Head -->
+        <div class="head">
+            <h2>JavaScript CRUDS</h2>
+            <p>Products Management System</p>
+        </div>
+        <!-- End Head -->
+
+
+
+        <!-- Start Inputs -->
+        <div class="inputs">
+
+            <input type="text" placeholder="Title" id="title">
+            <div class="price">
+                <input type="number" placeholder="Price" id="price">
+                <input type="number" placeholder="Taxes" id="tax">
+                <input type="number" placeholder="ADS" id="ads">
+                <input type="number" placeholder="Discount" id="discount">
+                <small id="total">12334</small>
+            </div>
+            <input type="number" placeholder="Count" id="count">
+            <input type="text" placeholder="Category" id="category">
+            <button id="submit">Create</button>
+        </div>
+        <!-- End Inputs -->
+
+
+
+
+        <!-- Start Outputs -->
+        <div class="outputs">
+            <div class="searchBlock">
+                <input type="text" placeholder="Search" id="search">
+
+                <div class="btnSearch">
+                    <button id="searchTitle">Search By Title</button>
+                    <button id="searchCategory">Search By Category</button>
+                </div>
+
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <th>taxes</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>Total</th>
+                        <th>category</th>
+                        <th>update</th>
+                        <th>delete</th>
+                    </tr>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Readme</td>
+                            <td>13133</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>phone</td>
+                            <td><button id="update">Update</button></td>
+                            <td><button id="delete">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Readme</td>
+                            <td>13133</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>phone</td>
+                            <td><button id="update">Update</button></td>
+                            <td><button id="delete">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Readme</td>
+                            <td>13133</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>2343</td>
+                            <td>phone</td>
+                            <td><button id="update">Update</button></td>
+                            <td><button id="delete">Delete</button></td>
+
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <!-- End Outputs -->
+
+
+
+
+
+
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
